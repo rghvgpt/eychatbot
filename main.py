@@ -13,7 +13,7 @@ import os
 
 cohere_api_key = os.environ.get('coherekey')
 image = Image.open('OIP.jpg')
-col1, inter_cols_pace, col2 = st.columns((1, 3, 1))
+col1, inter_cols_pace, col2 = st.columns((1, 2, 1))
 inter_cols_pace.image(image, use_column_width="auto")
 
 c1, inter_cols, c2 = st.columns((1, 2, 1))
