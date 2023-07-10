@@ -17,7 +17,7 @@ col1, inter_cols_pace, col2 = st.columns((1, 9, 1))
 inter_cols_pace.image(image, use_column_width="auto")
 
 c1, inter_cols, c2 = st.columns((1, 2, 1))
-inter_cols.title("🔎 VecmoPedia")
+inter_cols.title("🔎 EY-Pedia")
 
 """
 Feel free to ask any questions you have, and let our AI-based chatbot be your trusted guide in discovering the world of Vecmocon.
