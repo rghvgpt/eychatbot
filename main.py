@@ -11,8 +11,8 @@ from my_pdf_lib import text_to_docs, parse_pdf
 import os
 # from db_chat import user_message, bot_message
 
-cohere_api_key = os.environ.get('priyanshusinha')
-image = Image.open('veclogo.png')
+cohere_api_key = os.environ.get('coherekey')
+image = Image.open('OIP.jpg')
 col1, inter_cols_pace, col2 = st.columns((1, 9, 1))
 inter_cols_pace.image(image, use_column_width="auto")
 
